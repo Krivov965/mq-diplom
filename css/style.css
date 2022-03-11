@@ -25,7 +25,7 @@
     display: block;
     position: relative;
     background-color: grey;
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
+    background-image: url(images\banner-bg.jpg);
     background-size: cover;
     background-position: center;
     margin-bottom: 60px;
@@ -94,6 +94,10 @@
     z-index: 1;
   }
   
+  .one {
+    font-size: 20px;
+  }
+
   .main {
     display: block;
     width: 778px;
@@ -374,4 +378,8 @@
     text-decoration: none;
     padding-bottom: 40px;
     text-align: center;
+  }
+
+  @media (max-width: 360px) {
+
   }
